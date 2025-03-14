@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background: url(images/stormy\ road.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input{
+    width: 50%;
+    background: rgba(0, 0, 0, 0.268);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+
+button{
+    background: #008bba;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#weatherInfo{
+    display: none;
+    margin-top: 20px;
+    background: none;
+}
