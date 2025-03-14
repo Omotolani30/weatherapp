@@ -7,6 +7,10 @@
     background-size: cover;
 }
 
+h1{
+    text-align: center;
+    background: transparent;
+}
 .container{
     max-width: 400px;
     margin: 100px auto;
@@ -46,7 +50,5 @@ button{
 }
 
 #weatherInfo{
-    display: none;
     margin-top: 20px;
-    background: none;
 }

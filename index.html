@@ -8,15 +8,19 @@
 </head>
 <body>
     <div class="container">
-        <input type="text" placeholder="Enter city name">
-        <button id="searchBtn" onclick="searchCity()">Get Weather</button>
+        <h1>Weather App</h1>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button id="searchBtn" onclick="getWeather()">Get Weather</button>
         
+
         <div id="weatherInfo">
-            <h3 id="cityName">--</h3>
-            <p id="temperature">--c</p>
-            <p id="description">--</p>
-            <p id="humidity">Humidity: --%</p>
-            <p id="windSpeed">Wind Speed: -- m/s</p>
+            <h3 id="city-name"></h3>
+            <p id="temperature"></p>
+            <p id="description"> </p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+
+            <img id="weatherIcon" alt="Weather Icon">
         </div>
     </div>
 
